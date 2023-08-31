@@ -10,9 +10,9 @@ from dataclasses import dataclass
 class Student:
     name: str
     College_Id:int
-    gpa:float
+    gpa:float # here is the float  similar to int where it displays numbers with a decimal
 
-def main():
+def main(): # i used a my own examples right there to add a name and example
     Steve = Student('Steve',235609,3.7)
     Kate = Student('Kate',124578,2.6)
 
